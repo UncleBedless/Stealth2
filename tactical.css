@@ -1,0 +1,262 @@
+.font{
+    font-family: sans-serif;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: red;
+    color: white;
+  }
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+  
+
+.font2 {
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.product-img {
+  float: left;
+  margin-right: 40px;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.product {
+  border: 4px solid black;
+  position: relative;
+  width: 900px;
+  margin: 50px auto;
+}  
+
+.sale {
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+}
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: capitalize;
+  background-color: #f7f7f7;
+  padding: 15px;
+
+}
+
+
+
+.shipping {
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+  margin-bottom: 20px;
+  float: right;
+  margin-top: 8px;
+
+}
+
+.more-information:link, .more-information:visited {
+  color:black;
+}
+
+.more-information:hover, .more-information:active {
+  text-decoration: none;
+}
+
+.detail-title {
+  text-transform:uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.detail-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.add-cart {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size:20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
+}
+.add-cart:hover {
+  color:#000;
+  background-color: #fff;
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.color-blue {
+  background-color: #2f6ee2;
+}
+
+.color-red {
+  background-color: #ec2f2f;
+}
+
+.color-yellow {
+  background-color: #f0bf1e;
+}
+
+.color-green {
+  background-color: #90cc20;
+}
+
+.color-brown {
+  background-color: #885214;
+}
+
+
+.detail-list li {
+  margin-bottom: 20px;
+}
+
+
+.product-info {
+  width: 243px;
+  float: left;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.price {
+  font-size: 22px;
+  float: left;
+}
+
+
+
+.product-detail {
+  float: left;
+  margin-top: 20px;
+  width: 243px;
+}
+
+.clearfix::after {
+  content: '';
+  display:block;
+  clear:both;
+}
+
+.product-description {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+
+.product-img2{
+  float: left;
+  margin-right: 40px;
+}
